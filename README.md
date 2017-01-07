@@ -1,2 +1,3 @@
-# projecteuler_python
-completed project euler problems done with python
+# projecteuler_problems
+
+Completed and in-progress programming problems from project euler.
