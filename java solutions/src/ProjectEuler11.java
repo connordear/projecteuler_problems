@@ -1,3 +1,6 @@
+// Project Euler # 11 : 
+// What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
@@ -7,6 +10,7 @@ public class ProjectEuler11 {
 
 	public static void main(String[] args) throws FileNotFoundException 
 	{
+		//First build 20x20 array by reading in from a file holding the numbers
 		int[][] multi = new int[20][20];
 				Scanner input = new Scanner(new File("array.txt"));
 		int j = -1;
@@ -35,7 +39,7 @@ public class ProjectEuler11 {
 		}
 		input.close();
 		System.out.println(Arrays.deepToString(multi));
-		
+		// Now take the product of each direction of numbers
 		int biggestDiagonal = 1;
 		int prevDiag = 1;
 		//Diagonal Down Search
