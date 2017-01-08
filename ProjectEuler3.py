@@ -15,13 +15,13 @@ import time
 #     print(str(time.clock()) + ' seconds for completion.')
 #
 #
-# def check_prime2(a):
-#     monet = True
-#     for i in range(2, int(math.sqrt(a)) + 1):
-#         if a % i == 0:
-#             monet = False
-#             break
-#     return monet
+ def check_prime2(a):
+     monet = True
+     for i in range(2, int(math.sqrt(a)) + 1):
+         if a % i == 0:
+             monet = False
+             break
+     return monet
 #
 #
 # def check_prime3(a):
