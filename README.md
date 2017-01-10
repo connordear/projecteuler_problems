@@ -22,3 +22,6 @@ The problems range in difficulty and for many the experience is inductive chain 
 <br>
 
 These are my completed and in-progress solutions to the problems from project euler.
+Lots of these still need to be cleaned up and formatted properly - many of them
+contain extraneous functions that are not actually used in my final solution
+and so they look a little more clunky than they actually are.
